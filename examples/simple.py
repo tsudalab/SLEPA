@@ -19,7 +19,7 @@ numiter = 20
 seed = 2 
 
 # default MC_step=1, numiter=20, seed=0
-slepa = slepa.SelfLearningEPA(plen, num_particle, thresarray, MC_step=100, numiter=20, seed=0)
+slepa = slepa.SelfLearningEPA(plen, num_particle, MC_step=100, numiter=20, seed=seed)
 
 '''
 return value
@@ -29,7 +29,6 @@ allenergy: a numiter*numparticle array of all peptide energy searched
 estn: a histogram list of DoS (density of state)
 descriptor: a len(thresarray)*plen*20(20 means the number of types of amino acids) array of the peptide descriptor distribution 
 '''
-slepa = SelfLearningEPA(plen, num_particle, MC_step=100, numiter=20, seed=seed)
 allseq, allenergy = slepa.self_learning_population_annealing()
 estn, free_energy = slepa.multi_histogram()
 descriptor = slepa.collect_observable(thresarray, free_energy, allseq, allenergy)
