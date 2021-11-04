@@ -56,7 +56,7 @@ pip3 uninstall slepa
 
 ## Usage
 
-['examples/simple.py'](https://github.com/tsudalab/SLEPA/examples/) is a simple example.
+['examples/simple.py'](https://github.com/tsudalab/SLEPA/blob/main/examples/simple.py) is a simple example.
 
 ## License
 
