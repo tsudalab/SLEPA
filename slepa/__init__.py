@@ -1,1 +1,1 @@
-from .self_learning_population_annealing import *
+from .self_learning_entropic_population_annealing import *
