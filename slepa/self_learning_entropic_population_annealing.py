@@ -209,8 +209,8 @@ class SelfLearningEPA():
 		width = self.E_max-self.E_min
 
 		for i in range(self.num_discretize):
-			low = self.E_min + i*width/self.numiter
-			high = self.E_min + (i+1)*width/self.numiter
+			low = self.E_min + i*width/self.num_discretize
+			high = self.E_min + (i+1)*width/self.num_discretize
 			self.es[i] = (high+low)/2
 
 		f = np.zeros(self.numiter)
