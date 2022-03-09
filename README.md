@@ -1,7 +1,7 @@
 <div align="center">
 
 # Self-Learning Entropic Population Annealing
-    [![DOI](https://zenodo.org/badge/424471013.svg)](https://zenodo.org/badge/latestdoi/424471013)
+[![DOI](https://zenodo.org/badge/424471013.svg)](https://zenodo.org/badge/latestdoi/424471013)
 
 
 </div>
